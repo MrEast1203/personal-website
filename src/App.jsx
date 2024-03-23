@@ -5,7 +5,7 @@ import ChatPage from "./pages/ChatPage";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 function App() {
   return (
-    <Router>
+    <Router basename="/personal-website">
       <Header />
       <Routes>
         <Route path="/" element={<HomePage />} />
