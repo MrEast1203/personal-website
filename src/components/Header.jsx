@@ -16,12 +16,27 @@ export default function Header() {
           <Link
             to="/"
             className="text-sm font-semibold leading-6 text-gray-900">
+            Home
+          </Link>
+          <Link
+            to="/about"
+            className="text-sm font-semibold leading-6 text-gray-900">
             About
           </Link>
           <Link
             to="/chat"
             className="text-sm font-semibold leading-6 text-gray-900">
             Chat
+          </Link>
+          <Link
+            to="/user"
+            className="text-sm font-semibold leading-6 text-gray-900">
+            User
+          </Link>
+          <Link
+            to="/add-user"
+            className="text-sm font-semibold leading-6 text-gray-900">
+            Add User
           </Link>
         </Popover.Group>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
